@@ -9,7 +9,7 @@ public class BadAccount {
     }
 
     // The keyword "synchronized" is supposed to be added here.
-    public synchronized void deposit(int amount) {
+    public void deposit(int amount) {
         int newBalance = balance + amount;
         balance = newBalance;
     }
